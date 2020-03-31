@@ -6,6 +6,13 @@ class Apartment
     @monthly_rent = apt[:monthly_rent]
     @bathrooms = apt[:bathrooms]
     @bedrooms = apt[:bedrooms]
-    @renter = nil 
+    @renter = nil
   end
+
+  def add_renter(tenant)
+    @renter = tenant
+  end
+
+
+
 end
